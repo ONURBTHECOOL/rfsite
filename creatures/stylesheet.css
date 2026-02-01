@@ -24,6 +24,11 @@ p {
     a:link {
       color: green;
     }
+i {
+  font-style: italic;
+  color: white;
+  font-size: 90%;
+}
 a:visited {
   color: green;
 }
