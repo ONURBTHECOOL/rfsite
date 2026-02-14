@@ -11,36 +11,15 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <script>
-      function includeHTML() {
-        var z, i, elmnt, file, xhttp;
-        z = document.getElementsByTagName("*");
-        for (i = 0; i < z.length; i++) {
-          elmnt = z[i];
-          file = elmnt.getAttribute("w3-include-html");
-          if (file) {
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-              if (this.readyState == 4) {
-                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                elmnt.removeAttribute("w3-include-html");
-                includeHTML();
-              }
-            }
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            return;
-          }
-        }
-      }
-</script>
-    <div include-html="navbar.html"></div>
-    <script>
-      includeHTML();
-    </script>
+    <ul class="topnav">
+      <li><a href="https://rotators.biz">Home</a></li>
+      <li><a href="https://rotators.biz/aboutus">About</a></li>
+      <li><a class="active" href="https://rotators.biz/creatures">Creatures</a></li>
+      <li><a href="https://rotators.biz/banned">Banned</a></li>
+      <li><a href="https://sardines.pages.dev/">Sardines (proud partner!)</a></li>
+    </ul>
     <h1>This is the Rotating Fish Official site! Be Bald and Grow Antlers!!</h1>
-    <h2>Also dont forget to visit <a href="https://sardines.pages.dev/">The sardines website!</h2>
+    <h2>Also dont forget to visit <a href="https://sardines.pages.dev/">The sardines website!</a></h2>
     <img src="fishy(cool texture)0000-0576.gif" alt="Rotating Fish" />
   </body>
 </html>
