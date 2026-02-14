@@ -62,6 +62,9 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
+  img {
+  max-width: 100%;
+  }
 }
 </s
 
