@@ -15,7 +15,7 @@ h2 {
   text-shadow: 5px 5px 5px white;
 }
 img {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 p {
@@ -24,6 +24,11 @@ p {
     a:link {
       color: green;
     }
+i {
+  font-style: italic;
+  color: white;
+  font-size: 90%;
+}
 a:visited {
   color: green;
 }
@@ -49,7 +54,7 @@ ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0px 0px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -62,9 +67,6 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-  img {
-  max-width: 100%;
-  }
 }
 </s
 
