@@ -61,7 +61,7 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active .subactive) {background-color: #111;}
 
 ul.topnav li a.active {background-color: #0b6604;}
 ul.topnav li a.subactive {background-color: #644d00;}
