@@ -77,3 +77,8 @@ ul.topnav li.right {float: right;}
 ul li a:hover {
   background-color: #111111;
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: progress;
+    text-decoration: underline red wavy 5px;
+}
