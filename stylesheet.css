@@ -79,6 +79,7 @@ ul li a:hover {
 }
 a:-webkit-any-link {
     color: -webkit-link;
-    cursor: progress;
-    text-decoration: underline red wavy 5px;
+    cursor: pointer;
+    text-decoration: underline green wavy 5px;
+    color: green;
 }
