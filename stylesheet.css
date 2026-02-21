@@ -80,6 +80,6 @@ ul li a:hover {
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration: underline green wavy 5px;
+    text-decoration: underline green wavy 2px;
     color: green;
 }
