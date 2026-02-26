@@ -1,0 +1,95 @@
+body {
+  background-color: red;
+  font-size: 150%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+     }
+h1 {
+  font-size: 150%;
+  color: black;
+  text-shadow: 3px 3px 2px black;
+}
+h2 {
+  font-size: 100%;
+  color: black;
+  text-shadow: 5px 5px 5px black;
+}
+h3{
+  font-size: 200%;
+  color: black;
+  text-shadow: 3px 3px 2px black;
+  font-style: italic;
+}
+img {
+  max-width: 50%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+p {
+    color: black;
+  }
+    a:link {
+      color: black;
+    }
+i {
+  font-style: italic;
+  color: black;
+  font-size: 90%;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: black;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: red;
+  text-shadow: black;
+}
+
+ul.topnav li a.active {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 756px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</s
+
+ul li a:hover {
+  background-color: black;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline red wavy 2px;
+    text-shadow: none;
+    color: red;
+}
