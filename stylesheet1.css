@@ -4,6 +4,19 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
 audio:not([controls]) {
     display: none;
     height: 0
@@ -237,7 +250,7 @@ td, th {
     }
 
     .label {
-        border: 1px solid #003105
+        border: 1px solid #000
     }
 
     .table {
@@ -249,7 +262,7 @@ td, th {
     }
 
     .table-bordered td, .table-bordered th {
-        border: 1px solid #88ff00 !important
+        border: 1px solid #ddd !important
     }
 }
 
@@ -1333,14 +1346,14 @@ td, th {
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 158, 221, 0)
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #000000;
+    color: #333;
     background-color: #fff
 }
 
@@ -1442,7 +1455,7 @@ hr {
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
     font-weight: 400;
     line-height: 1;
-    color: #003507
+    color: #777
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -1633,7 +1646,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 1px solid #10c5ce
+    border-bottom: 1px solid #eee
 }
 
 ol, ul {
@@ -1763,7 +1776,7 @@ code {
 kbd {
     padding: 2px 4px;
     font-size: 90%;
-    color: #005e3d;
+    color: #fff;
     background-color: #333;
     border-radius: 3px;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
@@ -2872,7 +2885,7 @@ legend {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: inherit;
-    color: #00ffe5;
+    color: #333;
     border: 0;
     border-bottom: 1px solid #e5e5e5
 }
@@ -2936,8 +2949,8 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #008f56;
-    background-color: #f5ffb4;
+    color: #555;
+    background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -3649,7 +3662,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
-    color: #4fff3b;
+    color: #fff;
     background-color: #c9302c;
     background-image: none;
     border-color: #ac2925
@@ -3694,7 +3707,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-link[disabled]:focus, .btn-link[disabled]:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover {
-    color: #006e3c;
+    color: #777;
     text-decoration: none
 }
 
@@ -3841,7 +3854,7 @@ tbody.collapse.in {
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     color: #262626;
     text-decoration: none;
-    background-color: #afa215
+    background-color: #f5f5f5
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
@@ -4450,12 +4463,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 @media (min-width:768px) {
     .nav-tabs-justified>li>a {
-        border-bottom: 1px solid #8cffdb;
+        border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
     }
 
     .nav-tabs-justified>.active>a, .nav-tabs-justified>.active>a:focus, .nav-tabs-justified>.active>a:hover {
-        border-bottom-color: #008314
+        border-bottom-color: #fff
     }
 }
 
@@ -4493,7 +4506,6 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-collapse {
-    background-color: #222222;
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
@@ -4703,7 +4715,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
-    box-shadow: inset 0 1px 0 rgba(255, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
     margin-top: 8px;
     margin-bottom: 8px
 }
@@ -4863,7 +4875,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #01a407
+    color: #777
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -4877,7 +4889,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:focus, .navbar-default .navbar-nav>.disabled>a:hover {
-    color: #007704;
+    color: #ccc;
     background-color: transparent
 }
 
@@ -4888,7 +4900,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 @media (max-width:767px) {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #03b900
+        color: #777
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
@@ -4945,7 +4957,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .navbar-inverse {
     background-color: #222;
-    border-color: #007a02
+    border-color: #080808
 }
 
 .navbar-inverse .navbar-brand {
@@ -5746,7 +5758,7 @@ a.list-group-item-success .list-group-item-heading, button.list-group-item-succe
 
 a.list-group-item-success:focus, a.list-group-item-success:hover, button.list-group-item-success:focus, button.list-group-item-success:hover {
     color: #3c763d;
-    background-color: #000000
+    background-color: #d0e9c6
 }
 
 a.list-group-item-success.active, a.list-group-item-success.active:focus, a.list-group-item-success.active:hover, button.list-group-item-success.active, button.list-group-item-success.active:focus, button.list-group-item-success.active:hover {
