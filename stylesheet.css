@@ -3,17 +3,20 @@ body {
   font-size: 150%;
   font-family: "Roboto", sans-serif;
   text-align: center;
-     }
+}
+
 h1 {
   font-size: 150%;
   color: #0b6604;
   text-shadow: 3px 3px 2px #0b6604;
 }
+
 h2 {
   font-size: 100%;
   color: white;
   text-shadow: 5px 5px 5px white;
 }
+
 img {
   max-width: 50%;
   width: 50%;
@@ -22,27 +25,19 @@ img {
 }
 
 p {
-    color: white;
-  }
-    a:link {
-      color: green;
-    }
+  color: white;
+}
+
+a:link {
+  color: green;
+}
+
 i {
   font-style: italic;
   color: white;
   font-size: 90%;
 }
-a:visited {
-  color: green;
-}
 
-a:hover {
-  color: yellow;
-}
-
-a:active {
-  color: red;
-}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -52,7 +47,9 @@ ul.topnav {
   text-shadow: #11ff00;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -66,25 +63,37 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {
   background-color: #111;
   text-shadow: #11ff00;
+  text-decoration: none;
 }
 
-ul.topnav li a.active {background-color: #0b6604;}
-ul.topnav li a.subactive {background-color: #644d00;}
+ul.topnav li a.active {
+  background-color: #0b6604;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li a.subactive {
+  background-color: #644d00;
+}
+
+ul.topnav li.right {
+  float: right;
+}
 
 @media screen and (max-width: 756px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-</s
 
-ul li a:hover {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+</s ul li a:hover {
   background-color: #111111;
 }
+
 a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-shadow: none;
-    color: green;
+  color: -webkit-link;
+  cursor: pointer;
+  text-shadow: none;
+  color: green;
+  text-decoration: none;
 }
