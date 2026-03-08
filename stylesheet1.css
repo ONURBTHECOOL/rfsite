@@ -32,10 +32,6 @@ abbr[title] {
     text-decoration: underline dotted
 }
 
-b, strong {
-    font-weight: 700
-}
-
 dfn {
     font-style: italic
 }
