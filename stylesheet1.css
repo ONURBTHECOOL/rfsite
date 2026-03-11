@@ -7128,3 +7128,19 @@ button.close {
 .navbar-brand-active:focus, .navbar-brand-active:hover {
     text-decoration: none
 }
+.navbar-brand-active>img {
+    display: block
+}
+@media (min-width:768px) {
+    .navbar>.container .navbar-brand-active, .navbar>.container-fluid .navbar-brand-active {
+        margin-left: -15px
+    }
+}
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d
+}
+
+.navbar-inverse .navbar-brand-active:focus, .navbar-inverse .navbar-brand-active:hover {
+    color: #fff;
+    background-color: transparent
+}
