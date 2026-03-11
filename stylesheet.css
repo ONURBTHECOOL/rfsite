@@ -108,3 +108,17 @@ a:-webkit-any-link {
   color: green;
   text-decoration: none;
 }
+
+.link-button {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: darkgreen;
+}
