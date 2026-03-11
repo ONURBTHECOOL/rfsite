@@ -7117,6 +7117,14 @@ button.close {
     }
 }
 
-.navbar.active {
+.navbar-brand-active {
     color: green;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px
+}
+.navbar-brand-active:focus, .navbar-brand-active:hover {
+    text-decoration: none
 }
