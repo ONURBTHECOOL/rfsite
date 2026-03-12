@@ -118,7 +118,7 @@ a:-webkit-any-link {
   -moz-text-decoration-style: none;
   text-decoration-style: none;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 1%;
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
@@ -129,4 +129,8 @@ a:-webkit-any-link {
 
 .link-button:active {
   background-color: darkgreen;
+}
+
+.link-button a {
+  color: white;
 }
