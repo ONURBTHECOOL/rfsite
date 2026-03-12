@@ -105,7 +105,7 @@ a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-shadow: none;
-  color: green;
+  color: rgb(155, 75, 0);
   text-decoration: none;
   -moz-text-decoration-style: none;
   text-decoration-style: none;
