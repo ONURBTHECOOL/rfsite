@@ -107,12 +107,16 @@ a:-webkit-any-link {
   text-shadow: none;
   color: green;
   text-decoration: none;
+  -moz-text-decoration-style: none;
+  text-decoration-style: none;
 }
 
 .link-button {
   display: inline-block;
   background-color: green;
   color: white;
+  -moz-text-decoration-style: none;
+  text-decoration-style: none;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 6px;
