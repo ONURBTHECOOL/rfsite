@@ -110,15 +110,19 @@ a:-webkit-any-link {
 }
 
 .link-button {
+  display: inline-block;
   background-color: green;
   color: white;
+  text-decoration: none;
   padding: 10px 15px;
   border-radius: 6px;
-  text-decoration: none;
-  display: inline-block;
   transition: background-color 0.3s ease;
 }
 
 .link-button:hover {
+  background-color: darkgreen;
+}
+
+.link-button:active {
   background-color: darkgreen;
 }
