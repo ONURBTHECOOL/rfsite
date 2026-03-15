@@ -34,9 +34,11 @@ img {
   margin: auto;
   transform: translateX(-50%);
   animation-name: fall;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes fall {
@@ -52,7 +54,7 @@ img {
   }
 
   100% {
-    transform: translate(-50%, calc(50vh - 0%));
+    transform: translate(-50%, calc(50vh - %));
     /* End at the bottom of the viewport */
     opacity: 1;
   }
