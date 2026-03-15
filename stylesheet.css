@@ -49,6 +49,11 @@ i {
   font-size: 90%;
 }
 
+@media screen and (max-width: 756px) {
+  .image-border-green {
+    box-shadow: 5px 5px 5px white;
+  }
+}
 
 
 @media screen and (max-width: 756px) {
