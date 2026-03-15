@@ -52,7 +52,7 @@ img {
   }
 
   100% {
-    transform: translate(-50%, calc(100vh - 100%));
+    transform: translate(-50%, calc(50vh - 100%));
     /* End at the bottom of the viewport */
     opacity: 1;
   }
