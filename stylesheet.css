@@ -32,6 +32,30 @@ img {
   width: 50%;
   display: block;
   margin: auto;
+  transform: translateX(-50%);
+  animation-name: fall;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(-50%, -100vh);
+    /* Start off-screen above the viewport */
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+    /* Fade in as it enters the screen */
+  }
+
+  100% {
+    transform: translate(-50%, calc(100vh - 100%));
+    /* End at the bottom of the viewport */
+    opacity: 1;
+  }
 }
 
 p {
