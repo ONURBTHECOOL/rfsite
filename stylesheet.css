@@ -51,7 +51,7 @@ i {
 
 @media screen and (max-width: 756px) {
   .image-border-green {
-    box-shadow: 5px 5px 5px white;
+    box-shadow: 5px 5px 5px #0b6604;
   }
 }
 
