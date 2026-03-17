@@ -24,6 +24,29 @@ img {
   margin: auto;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  h1 {
+    font-size: 200%;
+    color: #022500;
+    text-shadow: 5px 5px 5px #0b6604;
+  }
+
+  h2 {
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+  }
+}
+
 .image-border-green {
   border: 3px solid green;
   border-radius: 6px;
@@ -43,7 +66,7 @@ img {
 }
 
 @media (prefers-reduced-motion:reduce) {
-  .image-border-green{
+  .image-border-green {
     animation-timing-function: cubic-bezier(0.21, 0.86, 0.57, 1);
     animation-duration: 0s;
   }
