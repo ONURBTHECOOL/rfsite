@@ -44,8 +44,8 @@ img {
 
 @media (prefers-reduced-motion:reduce) {
   .image-border-green{
-    animation-timing-function: ease;
-    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.21, 0.86, 0.57, 1);
+    animation-duration: 0.5s;
   }
 }
 
