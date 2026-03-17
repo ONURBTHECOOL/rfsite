@@ -42,6 +42,13 @@ img {
   margin-right: auto;
 }
 
+@media (prefers-reduced-motion:reduce) {
+  .image-border-green{
+    animation-timing-function: ease;
+    animation-duration: 1s;
+  }
+}
+
 @keyframes fall {
   0% {
     transform: translate(-50%, -100vh);
