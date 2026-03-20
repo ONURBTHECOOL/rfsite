@@ -26,6 +26,7 @@ img {
 
 figcaption {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 @media (prefers-color-scheme: light) {
