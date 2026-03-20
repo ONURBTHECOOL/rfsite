@@ -24,6 +24,10 @@ img {
   margin: auto;
 }
 
+figcaption {
+  color: #ffffff;
+}
+
 @media (prefers-color-scheme: light) {
   body {
     background-color: rgb(255, 255, 255);
@@ -44,6 +48,10 @@ img {
   p {
     color: rgb(0, 0, 0) !important;
     font-size: 150%;
+  }
+
+  figcaption {
+    color: #000000;
   }
 }
 
