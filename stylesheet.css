@@ -222,3 +222,8 @@ a:-webkit-any-link {
 .link-button a {
   color: white;
 }
+.coolink {
+  color: #0b6604;
+  text-shadow: 5px 5px 5px #0b6604;
+  text-decoration: none;
+}
