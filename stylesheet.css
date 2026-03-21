@@ -58,13 +58,13 @@ figcaption {
 
 @media and (max-width:756px){
   .newsnav {
-    display: block;
+    display: block !important;
   }
 }
 
 @media and(min-width:757px){
   .newsnav {
-    display: none;
+    display: none !important;
   }
 }
 
