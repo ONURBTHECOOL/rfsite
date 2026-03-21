@@ -14,63 +14,28 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://rotators.biz">Rotating Fish</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Creatures <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://rotators.biz/creatures">All</a></li>
-              <li><a href="https://rotators.biz/creatures/moose">Moose</a></li>
-              <li><a href="https://rotators.biz/creatures/eyeder">Eyeder</a></li>
-              <li><a href="https://rotators.biz/creatures/balder">Balder</a></li>
-              <li><a href="https://rotators.biz/creatures/noseman">Nose Man</a></li>
-              <li><a href="https://rotators.biz/creatures/foam">Foam</a></li>
-              <li><a href="https://rotators.biz/creatures/bellybutton">BellyButton</a></li>
-              <li><a href="https://rotators.biz/creatures/erm">Erm</a></li>
-              <li><a href="https://rotators.biz/creatures/earwaxman">Earwaxman</a></li>
-              <li><a href="https://rotators.biz/creatures/section">Mr. Section</a></li>
-              <li><a href="https://rotators.biz/creatures/elections">Elections</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Banned <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://rotators.biz/banned" </a>All</li>
-              <li><a href="https://rotators.biz/creatures/foam">Foam</a></li>
-              <li><a href="https://rotators.biz/creatures/bellybutton">BellyButton</a></li>
-              <li><a href="https://rotators.biz/creatures/erm">Erm</a></li>
-            </ul>
-          </li>
-          <li><a href="https://rotators.biz/aboutus/">About</a></li>
-          <li><a href="https://www.sardinesclub.org">SardinesClub (Partner Website)</a></li>
-          <li><a href="https://rotators.biz/EBS/">EBS (Rivals)</a></li>
-          <li><a href="https://rotators.biz/creatures/elections">Elections</a></li>
-      </div>
-    </div>
-  </nav>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("/nav.html");
+    });
+  </script>
+  <div id="nav-placeholder"></div>
   <h1>Creatures: The Point of the Rotating Fish</h1>
   <h2>Creatures are what define the Rotating Fish. They can be vritually anything that does not already exist. Here is a
     list of all of our creatures:</h2>
   <p><a class="link-button" href="https://rotators.biz/creatures/moose">1.Moose with Parasites</a></p>
   <p><a class="link-button" href="https://rotators.biz/creatures/parasite">2.Parasite</a></p>
   <p><a class="link-button" href="https://rotators.biz/creatures/eyeder">3.Eyeder</a></p>
-  <p><a class="link-button" href="https://rotators.biz/creatures/balder" onclick="alert('This page requires baldness to work correctly. Please shave that head to continue.')">4.Balder</a></p>
+  <p><a class="link-button" href="https://rotators.biz/creatures/balder"
+      onclick="alert('This page requires baldness to work correctly. Please shave that head to continue.')">4.Balder</a>
+  </p>
   <p><a class="link-button" href="https://rotators.biz/creatures/noseman">5. Nose Man</a></p>
   <p><a class="link-button" href="https://rotators.biz/creatures/foam">6.Foam (Deprecated!)*</a></p>
   <p><a class="link-button" href="https://rotators.biz/creatures/bellybutton">7.Belly Button (Deprecated!)*</a></p>
-  <p><a class="link-button" href="https://rotators.biz/creatures/erm" >8.Erm (Eraser Dude) (Deprecated)*</a></p>
-  <p><a class="link-button" href="https://rotators.biz/creatures/earwaxman" >9. Earwaxman</a></p>
-  <p><a class="link-button" href="https://rotators.biz/creatures/section" >10. Mr. Section</a></p>
+  <p><a class="link-button" href="https://rotators.biz/creatures/erm">8.Erm (Eraser Dude) (Deprecated)*</a></p>
+  <p><a class="link-button" href="https://rotators.biz/creatures/earwaxman">9. Earwaxman</a></p>
+  <p><a class="link-button" href="https://rotators.biz/creatures/section">10. Mr. Section</a></p>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
