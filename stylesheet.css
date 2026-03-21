@@ -147,6 +147,7 @@ i {
 
   .newsnav {
     display: block !important;
+    color:#00e443 !important;
   }
 
   .image-border-green-less-width {
@@ -193,7 +194,6 @@ a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-shadow: none;
-  color: rgb(155, 75, 0);
   text-decoration: none;
   -moz-text-decoration-style: none;
   text-decoration-style: none;
