@@ -57,9 +57,7 @@ figcaption {
 }
 
 @media and(min-width:757px){
-  .newsnav {
-    display: none !important;
-  }
+
 }
 
 .image-border-green {
@@ -149,6 +147,9 @@ i {
     box-shadow: 5px 5px 5px #0b6604;
     max-width: 90%;
     width: 90%;
+  }
+.newsnav {
+    display: none !important;
   }
 
   .image-border-green-less-width {
