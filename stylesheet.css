@@ -56,10 +56,6 @@ figcaption {
   }
 }
 
-@media and(min-width:757px){
-
-}
-
 .image-border-green {
   border: 3px solid green;
   border-radius: 6px;
@@ -148,8 +144,9 @@ i {
     max-width: 90%;
     width: 90%;
   }
-.newsnav {
-    display: none !important;
+
+  .newsnav {
+    display: block !important;
   }
 
   .image-border-green-less-width {
@@ -170,6 +167,11 @@ i {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+
+.newsnav {
+  display: none;
 }
 
 
