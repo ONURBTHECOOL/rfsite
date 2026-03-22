@@ -227,3 +227,6 @@ a:-webkit-any-link {
   text-shadow: 5px 5px 5px #0b6604;
   text-decoration: none;
 }
+.ellection-description {
+  margin-bottom: 100px;
+}
