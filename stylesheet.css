@@ -55,10 +55,12 @@ figcaption {
     color: #000000;
   }
 }
+
 figcaption {
-    color: #ffffff;
-    margin-bottom: 50px !important;
-  }
+  color: #ffffff;
+  margin-bottom: 50px !important;
+}
+
 .image-border-green {
   border: 3px solid green;
   border-radius: 6px;
@@ -234,4 +236,10 @@ a:-webkit-any-link {
 
 .ellection-description {
   margin-bottom: 100px;
+}
+
+h6 {
+  font-size: 200%;
+  color: #0b6604;
+  text-shadow: 5px 5px 5px #0b6604;
 }
