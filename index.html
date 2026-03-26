@@ -18,6 +18,15 @@
   <script>
     function baldness() {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
+      buttons.innerHTML = ""
+    }
+    function hair() {
+      document.open();
+      $(function () {
+        $("#nav-placeholder").load("/nav.html");
+      });
+      document.write("<link rel='stylesheet' href='/stylesheet1.css'> <link rel='stylesheet' href='/stylesheet.css'><h1>Sorry, This Site Is Only For Bald People!!</h1>");
+      document.close();
     }
   </script>
   <noscript>
@@ -38,7 +47,10 @@
   </div>
   <h2>Also don't forget to visit <a class="link-button" href="https://sardines.pages.dev/">The sardines website!</a>
   </h2>
-  <button class="link-button" onclick="baldness()">Click here if you are bald!!!!!</button>
+  <div id="buttons">
+    <button class="link-button" onclick="baldness()">Click here if you are bald!!!!!</button>
+    <button class="link-button" onclick="hair()">Click here if you are not bald!!!!!</button>
+  </div>
   <img src="fishy(cool texture)0000-0576.gif" alt="Rotating Fish" onclick="alert('Thanks For Petting The Fish!!❤❤')" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
