@@ -3,6 +3,6 @@ body {
 }
 
 h6 {
-  color: rgb(0, 255, 0);
+  color: rgb(0 255 0) !important;
 }
 /* Be wary of the puke! */
