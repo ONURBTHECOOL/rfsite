@@ -19,6 +19,10 @@
     function baldness() {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
+      document.cookie = "baldness=true;"
+    }
+    if (document.cookie == "baldness=true") {
+      baldness();
     }
     function hair() {
       document.open();
