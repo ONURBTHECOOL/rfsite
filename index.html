@@ -17,14 +17,14 @@
 <body>
   <script>
     let YumCookies = document.cookie;
-    if (console.log(YumCookies) === "baldness=true") {
+    if (YumCookies === "baldness=true") {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
     }
     function baldness() {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
-      document.cookie = "baldness=true";
+      document.cookie = "baldness=true; path=/";
     }
 
     function hair() {
