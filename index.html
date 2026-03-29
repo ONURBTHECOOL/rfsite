@@ -17,18 +17,18 @@
 <body>
   <script>
     function getCookie(name) {
-      let cookieArr = document.cookie.split(";"); // Split into individual "name=value" pairs
+      let cookieArr = document.cookie.split(";");
       for (let i = 0; i < cookieArr.length; i++) {
-        let cookiePair = cookieArr[i].trim(); // Remove leading spaces
-        // Check if this pair starts with the name we want
+        let cookiePair = cookieArr[i].trim();
+
         if (cookiePair.indexOf(name + "=") == 0) {
           return decodeURIComponent(cookiePair.substring(name.length + 1));
         }
       }
-      return null; // Return null if not found
+      return null;
     }
     let YumCookies = getCookie("baldness");
-    if (YumCookies === "baldness=true") {
+    if (YumCookies === "true") {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
     }
