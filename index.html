@@ -16,6 +16,9 @@
 
 <body>
   <script>
+    window.onload = function () {
+      let welcome = document.getElementById("welcome");
+      let buttons = document.getElementById("buttons");
     function getCookie(name) {
       let cookieArr = document.cookie.split(";");
       for (let i = 0; i < cookieArr.length; i++) {
@@ -27,6 +30,7 @@
       }
       return null;
     }
+  }
     let YumCookies = getCookie("baldness");
     if (YumCookies === "true") {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
@@ -35,7 +39,7 @@
     function baldness() {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
-      document.cookie = "baldness=true; path=/";
+      document.cookie = "baldness=true; path=/; max-age=31536000"; // Cookie expires in 1 year
     }
 
     function hair() {
