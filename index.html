@@ -16,32 +16,14 @@
 
 <body>
   <script>
-    window.onload = function () {
-      let welcome = document.getElementById("welcome");
-      let buttons = document.getElementById("buttons");
-    function getCookie(name) {
-      let cookieArr = document.cookie.split(";");
-      for (let i = 0; i < cookieArr.length; i++) {
-        let cookiePair = cookieArr[i].trim();
-
-        if (cookiePair.indexOf(name + "=") == 0) {
-          return decodeURIComponent(cookiePair.substring(name.length + 1));
-        }
-      }
-      return null;
-    }
-  }
-    let YumCookies = getCookie("baldness");
-    if (YumCookies === "true") {
-      welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
-      buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
-    }
     function baldness() {
       welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
       buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
-      document.cookie = "baldness=true; path=/; max-age=31536000"; // Cookie expires in 1 year
+      document.cookie = "baldness=true;"
     }
-
+    if (document.cookie == "baldness=true;") {
+      baldness;
+    }
     function hair() {
       document.open();
       $(function () {
