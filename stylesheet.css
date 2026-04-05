@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: repeating-radial-gradient(black 0px, orange 5px, red 10px);
   font-size: 100%;
   font-family: "Roboto", sans-serif;
   text-align: center;
