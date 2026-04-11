@@ -8,7 +8,7 @@ function checkBaldness() {
     if (document.cookie.includes("baldness=true")) {
         baldness();
     }
-     else if (document.cookie.includes("baldness=false")) {
+    if (document.cookie.includes("baldness=false")) {
         hair();
     }
 }
@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function hair() {
-    document.cookie = "baldness=false; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    document.cookie = "baldness=false; path=/";
     document.write("<link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6>");
 }
