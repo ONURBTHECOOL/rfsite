@@ -29,5 +29,5 @@ function hair() {
 }
 function intentload() {
     document.cookie = "load=true; max-age=3600; path=/";
-    document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6>");
+    document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
 }
