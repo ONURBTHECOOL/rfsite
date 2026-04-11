@@ -24,6 +24,9 @@ img {
   margin: auto;
   -moz-user-select: none;
   user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
 }
 
 figcaption {
@@ -186,6 +189,7 @@ i {
 
 
 @media screen and (max-width: 756px) {
+
   ul.topnav li.right,
   ul.topnav li {
     float: none;
