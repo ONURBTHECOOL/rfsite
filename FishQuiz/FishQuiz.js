@@ -2,7 +2,7 @@
 const quizContainer = document.getElementById('quiz-container');
 quizContainer.innerHTML = "<div><h1>Welcome To The Fish Quiz!</h1> <button onclick='startQuiz()'>Start Quiz</button>";
 function startQuiz() {
-    quizContainer.innerHTML = `<script src="nav.js"></script><div id="question-container">
+    quizContainer.innerHTML = `<script src="/nav.js"></script><div id="question-container">
     <h2 id="question">What are your opinions on Moose™?</h2>
     <div id="options">button</div>
     <button id="next-btn" onclick="nextQuestion()">Next</button>
