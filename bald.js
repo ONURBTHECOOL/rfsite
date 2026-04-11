@@ -8,7 +8,7 @@ function checkBaldness() {
     if (document.cookie.includes("baldness=true")) {
         baldness();
     }
-    if (document.cookie.includes("baldness=false")) {
+     else if (document.cookie.includes("baldness=false")) {
         hair();
     }
 }
