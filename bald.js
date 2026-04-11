@@ -13,8 +13,14 @@ function checkBaldness() {
     }
 }
 
+function checkLoad() {
+    if (document.cookie.includes("load=true")) {
+        intentload();
+    }
+}
 document.addEventListener('DOMContentLoaded', () => {
     checkBaldness();
+    checkLoad();
 });
 
 function hair() {
@@ -22,5 +28,6 @@ function hair() {
     document.write("<link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6>");
 }
 function intentload() {
+    document.cookie = "load=true; max-age=3600; path=/";
     document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6>");
 }
