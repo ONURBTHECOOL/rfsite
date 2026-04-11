@@ -15,37 +15,14 @@
 </head>
 
 <body>
-  <script>
-    function baldness() {
-      welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
-      buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
-      document.cookie = "baldness=true; path=/";
-    }
-
-    function checkBaldness() {
-      if (document.cookie.includes("baldness=true")) {
-        baldness();
-      }
-    }
-
-    checkBaldness();
-
-    function hair() {
-      document.cookie = "baldness=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-      location.reload();
-    }
-  </script>
+  <script src="bald.js"></script>
   <noscript>
     <p>Feels Like You Have A Hairy Browser, It Doesn't Even Have JavaScript Enabled!
       May As Well Leave This Site And Get A Better Browser That Supports JavaScript If You Want To Get
       Actual <em>Navigation!</em></p>
   </noscript>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script>
-    $(function () {
-      $("#nav-placeholder").load("/nav.html");
-    });
-  </script>
+  <script src="nav.js"></script>
   <div id="nav-placeholder"></div>
   <!--Thanks for inspecting!-->
   <div id="welcome">
