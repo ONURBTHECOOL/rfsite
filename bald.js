@@ -25,9 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function hair() {
     document.cookie = "baldness=false; path=/";
-    document.write("<link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6>");
+    document.write("<link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6><button class='link-button' onclick='changeMind()'>Click here to go back to the site & admit that bald is beutifull!!!!!👍👍</button>");
 }
 function intentload() {
     document.cookie = "load=true; max-age=3600; path=/";
     document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
+}
+function changeMind() {
+    let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beautiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
+    document.cookie = "baldness=true; path=/";
+    location.reload();
 }
