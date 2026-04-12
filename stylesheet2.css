@@ -7,4 +7,28 @@ h6 {
   font-size: 50px;
 }
 
+.link-button {
+  display: inline-block;
+  background-color: #0b6604;
+  color: rgb(0, 0, 0) !important;
+  -moz-text-decoration-style: none;
+  text-decoration-style: none;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 6px;
+  transition: background-color cubic-bezier(0, 0, 1, -0.47);
+}
+
+.link-button:hover {
+  background-color: rgb(0, 150, 187);
+}
+
+.link-button:active {
+  background-color: darkgreen;
+}
+
+.link-button a {
+  color: white;
+}
+
 /* Be wary of the puke! */
