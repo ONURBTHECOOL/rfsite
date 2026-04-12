@@ -35,7 +35,7 @@ function hair() {
 function intentload() {
     document.cookie = "load=true; max-age=3600; path=/";
     document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
-    setTimeout(3600000, noLoad());
+    setTimeout(noLoad, 3600000);
 }
 function changeMind() {
     let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beutiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
