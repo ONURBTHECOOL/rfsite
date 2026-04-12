@@ -32,7 +32,7 @@ function intentload() {
     document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
 }
 function changeMind() {
-    let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beautiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
+    let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beutiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
     if (result) {
         document.cookie = "baldness=true; path=/";
         location.reload();
