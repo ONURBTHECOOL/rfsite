@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function hair() {
     document.cookie = "baldness=false; path=/";
-    document.write("<link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6><button class='link-button' onclick='changeMind()'>Click here to go back to the site & admit that bald is beutifull!!!!!👍👍</button>");
+    document.write("<title>Sorry. This Site Is Only For Bald People.</title><link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6><button class='link-button' onclick='changeMind()'>Click here to go back to the site & admit that bald is beutifull!!!!!👍👍</button>");
 }
 function intentload() {
     document.cookie = "load=true; max-age=3600; path=/";
-    document.write("<link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
+    document.write("<title>Loading...</title><link rel='stylesheet' href='/stylesheet.css'><h6>Loading...</h6><p>Loading will take one hour, please wait...</p>");
     setTimeout(noLoad, 3600000);
 }
 function changeMind() {
