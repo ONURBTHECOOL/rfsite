@@ -33,6 +33,12 @@ function intentload() {
 }
 function changeMind() {
     let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beautiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
-    document.cookie = "baldness=true; path=/";
-    location.reload();
+    if (result) {
+        document.cookie = "baldness=true; path=/";
+        location.reload();
+    }
+    else {
+        document.cookie = "baldness=false; path=/";
+        location.reload();
+    }
 }
