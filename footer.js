@@ -1,3 +1,13 @@
-$(function () {
-    $("#nav-placeholder").load("/footer.html");
+document.addEventListener('DOMContentLoaded', function() {
+  const footerHTML = `
+    <footer>
+      <hr>
+      <i>The RF Logo, Rotating Fish, And RF Are trademarks Of The The Rotating Fish Group.</i>
+      <i>Copyright © 2026 Rotating Fish. All rights reserved.</i>
+      <a href="https://github.com/ONURBTHECOOL/rfsite" title="GitHub">
+        <p class="link-button">View Source on GitHub</p>
+      </a>
+    </footer>
+  `;
+  document.body.insertAdjacentHTML('beforeend', footerHTML);
 });
