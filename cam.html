@@ -17,6 +17,8 @@
         navigator.mediaDevices.getUserMedia({ video: true, audio: false })
             .then(stream => { video.srcObject = stream; })
             .catch(err => console.error("Error accessing camera: ", err));
+    </script>
+    <script>
         document.getElementById('snap').addEventListener('click', () => {
             const canvas = document.getElementById('canvas');
             const context = canvas.getContext('2d');
@@ -26,7 +28,6 @@
             const data = canvas.toDataURL('image/png');
             document.getElementById('photo').setAttribute('src', data);
         });
-
     </script>
     <div id="nav-placeholder"></div>
     <video id="video" autoplay></video>
