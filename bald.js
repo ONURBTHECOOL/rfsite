@@ -49,5 +49,5 @@ function changeMind() {
     }
 }
 function checkBaldnessOnLoad() {
-    location.href("https://rotators.biz/404.html")
+    window.location.replace("https://rotators.biz/404.html")
 }
