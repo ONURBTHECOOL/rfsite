@@ -32,6 +32,7 @@ img {
 figcaption {
   color: #ffffff;
   margin-bottom: 100px;
+  text-align: center !important;
 }
 
 @media (prefers-color-scheme: light) {
