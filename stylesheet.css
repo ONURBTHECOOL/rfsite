@@ -5,6 +5,11 @@ body {
   text-align: start;
 }
 
+button {
+  border: 0px;
+  margin: 2px;
+}
+
 h1 {
   font-size: 200%;
   color: #0b6604;
