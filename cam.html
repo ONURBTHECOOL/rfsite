@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Quiz</title>
+    <link rel="stylesheet" href="/stylesheet1.css">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <script src="/bald.js"></script>
+    <script src="/nav.js"></script>
+</head>
+
+<body onload="checkBaldnessOnLoad()">
+    <script>
+        const video = document.getElementById('video');
+        navigator.mediaDevices.getUserMedia({ video: true, audio: false })
+            .then(stream => { video.srcObject = stream; })
+            .catch(err => console.error("Error accessing camera: ", err));
+        document.getElementById('snap').addEventListener('click', () => {
+            const canvas = document.getElementById('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0);
+            const data = canvas.toDataURL('image/png');
+            document.getElementById('photo').setAttribute('src', data);
+        });
+
+    </script>
+    <div id="nav-placeholder"></div>
+    <video id="video" autoplay></video>
+    <button id="snap">Take Photo</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <img id="photo" alt="The screen capture will appear in this box.">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/footer.js"></script>
+</body>
+
+</html>
