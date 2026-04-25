@@ -1335,7 +1335,8 @@ button, input, select, textarea {
     max-width: 100%;
     height: auto
 }
-@media (prefers-color-scheme: light){
+
+@media (prefers-color-scheme: light) {
     hr {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -7131,17 +7132,21 @@ button.close {
     font-size: 18px;
     line-height: 20px
 }
+
 .navbar-brand-active:focus, .navbar-brand-active:hover {
     text-decoration: none
 }
+
 .navbar-brand-active>img {
     display: block
 }
+
 @media (min-width:768px) {
     .navbar>.container .navbar-brand-active, .navbar>.container-fluid .navbar-brand-active {
         margin-left: -15px
     }
 }
+
 .navbar-inverse .navbar-brand {
     color: #9d9d9d
 }

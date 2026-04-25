@@ -207,9 +207,11 @@ i {
   ul.topnav li {
     float: none;
   }
+
   .link-button {
     font-size: 70%;
   }
+
   body {
     text-align: center;
   }
@@ -267,4 +269,11 @@ h6 {
   font-size: 200%;
   color: #0b6604;
   text-shadow: 5px 5px 5px #0b6604;
+}
+
+footer {
+  background-color: seagreen;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: darkgreen
 }
