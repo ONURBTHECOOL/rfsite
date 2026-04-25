@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const footerHTML = `
+document.addEventListener('DOMContentLoaded', function () {
+    const footerHTML = `
     <hr>
     <footer>
       <i>The RF Logo, Rotating Fish, And RF Are trademarks Of The The Rotating Fish Group.</i>
@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
       <a href="https://github.com/ONURBTHECOOL/rfsite" title="GitHub">
         <p class="link-button">View Source on GitHub</p>
       </a>
+      <p><a href="/copywrite.txt" alt="copyright" title="copyright">More Copyright!</a></p>
     </footer>
   `;
-  document.body.insertAdjacentHTML('beforeend', footerHTML);
+    document.body.insertAdjacentHTML('beforeend', footerHTML);
 });
