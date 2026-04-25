@@ -49,13 +49,5 @@ function changeMind() {
     }
 }
 function checkBaldnessOnLoad() {
-    if (document.cookie.includes("baldness=true")) {
-        console.log("");
-    }
-    else if (document.cookie.includes("baldness=false")) {
-        window.location.replace("https://rotators.biz");
-    }
-    else {
-        console.log("");
-    }
+    location.href("https://rotators.biz/404.html")
 }
