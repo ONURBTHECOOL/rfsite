@@ -150,6 +150,10 @@ a:link {
   color: green;
 }
 
+hr {
+  height: 3px;
+}
+
 i {
   font-style: italic;
   color: white;
@@ -202,6 +206,9 @@ i {
   ul.topnav li {
     float: none;
   }
+  .link-button {
+    font-size: 70%;
+  }
 }
 
 ul.topnav li a:hover {
@@ -225,8 +232,9 @@ a:-webkit-any-link {
   text-decoration-style: none;
   text-decoration: none;
   padding: 1%;
+  font-size: 70%;
   border-radius: 6px;
-  transition: background-color cubic-bezier(0, 0, 1, -0.47);
+  transition: background-color cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .link-button:hover {
