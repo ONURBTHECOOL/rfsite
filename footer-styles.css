@@ -1,0 +1,11 @@
+footer {
+  background-color: seagreen;
+  border-radius: 6px;
+  border-color: darkgreen;
+  border-style: solid;
+  clear: both;
+  margin-top: 50px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
