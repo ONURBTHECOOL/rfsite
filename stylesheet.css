@@ -60,7 +60,9 @@ figcaption {
     color: #000000;
   }
 }
-
+hr {
+  color: #000;
+}
 figcaption {
   color: #ffffff;
   margin-bottom: 50px !important;
