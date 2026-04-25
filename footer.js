@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const footerHTML = `
+    <hr>
     <footer>
-      <hr>
       <i>The RF Logo, Rotating Fish, And RF Are trademarks Of The The Rotating Fish Group.</i>
       <i>Copyright © 2026 Rotating Fish. All rights reserved.</i>
       <a href="https://github.com/ONURBTHECOOL/rfsite" title="GitHub">
