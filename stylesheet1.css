@@ -74,7 +74,7 @@ hr {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    height: 0
+    height: 0;
 }
 
 pre {
@@ -1335,12 +1335,20 @@ button, input, select, textarea {
     max-width: 100%;
     height: auto
 }
+@media (prefers-color-scheme: light){
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #000000 !important;
+    }
+}
 
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eee
+    border-top: 1px solid #ffffff;
 }
 
 .sr-only {
