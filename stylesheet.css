@@ -147,8 +147,8 @@ p {
   font-size: 150%;
 }
 
-a:link {
-  color: green;
+a {
+  text-decoration: none;
 }
 
 hr {
