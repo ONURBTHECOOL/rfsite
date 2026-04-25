@@ -68,7 +68,6 @@ figcaption {
 
   hr {
     color: #000000;
-    height: 3px;
   }
 }
 
@@ -149,6 +148,10 @@ p {
 
 a:link {
   color: green;
+}
+
+hr {
+  height: 3px;
 }
 
 i {
