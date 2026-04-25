@@ -36,7 +36,13 @@ figcaption {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(87, 87, 87);
+  }
+
+  i {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 90%;
   }
 
   h1 {
@@ -61,7 +67,8 @@ figcaption {
   }
 
   hr {
-    color: #000;
+    color: #000000;
+    height: 3px;
   }
 }
 
@@ -121,13 +128,11 @@ figcaption {
 @keyframes fall {
   0% {
     transform: translate(-50%, -100vh);
-    /* Start off-screen above the viewport */
     opacity: 0;
   }
 
   20% {
     opacity: 1;
-    /* Fade in as it enters the screen */
   }
 
   100% {
