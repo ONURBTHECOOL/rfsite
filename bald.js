@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function hair() {
     document.cookie = "baldness=false; path=/";
-    document.write("<title>Sorry. This Site Is Only For Bald People.</title><link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6><button class='link-button' onclick='changeMind()'>Click here to go back to the site & admit that bald is beutifull!!!!!👍👍</button>");
+    document.write("<title>Sorry. This Site Is Only For Bald People.</title><link rel='stylesheet' href='/stylesheet2.css'><h6>Sorry This Site Is Only For Bald People!</h6><button class='link-button' onclick='changeMind()'>Click here to go back to the site & admit that bald is beautifull!!!!!👍👍</button>");
 }
 function intentload() {
     document.cookie = "load=true; path=/";
@@ -38,7 +38,7 @@ function intentload() {
     setTimeout(noLoad, 3600000);
 }
 function changeMind() {
-    let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beutiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
+    let result = confirm("Are you 100% sure you are bald? Click 'OK' to admit that bald is beautiful and regain site access. Click 'Cancel' to turn back and retain your hair.");
     if (result) {
         document.cookie = "baldness=true; path=/";
         location.reload();
