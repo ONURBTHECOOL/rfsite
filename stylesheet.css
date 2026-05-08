@@ -47,7 +47,7 @@ figcaption {
 
   i {
     font-style: italic;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 90%;
   }
 
@@ -141,7 +141,7 @@ figcaption {
   }
 
   100% {
-    transform: translate(-50%, calc(50vh - %));
+    transform: translate(-50%, calc(50vh - 50%));
     /* End at the bottom of the viewport */
     opacity: 1;
   }
