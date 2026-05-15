@@ -273,7 +273,7 @@ a:-webkit-any-link {
 }
 
 img:hover {
-  animation-name: shake;
+  animation-name: spin;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
   cursor: url('favicon.ico'), auto;
