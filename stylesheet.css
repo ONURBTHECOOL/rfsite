@@ -272,6 +272,13 @@ a:-webkit-any-link {
   margin-bottom: 100px;
 }
 
+img:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  cursor: url('favicon.ico'), auto;
+}
+
 h6 {
   font-size: 200%;
   color: #0b6604;
