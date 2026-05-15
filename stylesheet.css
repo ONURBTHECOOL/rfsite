@@ -141,7 +141,7 @@ figcaption {
   }
 
   100% {
-    transform: translate(-50%, calc(50vh - 50%));
+    transform: translate(-50%, calc(50vh - %));
     /* End at the bottom of the viewport */
     opacity: 1;
   }
