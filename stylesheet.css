@@ -272,6 +272,10 @@ a:-webkit-any-link {
   margin-bottom: 100px;
 }
 
+img {
+  z-index: 10;
+}
+
 img:hover {
   animation-name: fall;
   animation-duration: 3s;
