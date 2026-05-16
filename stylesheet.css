@@ -273,10 +273,21 @@ a:-webkit-any-link {
 }
 
 img:hover {
-  animation-name: spin;
-  animation-duration: 0.5s;
+  animation-name: fall;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   cursor: url('favicon.ico'), auto;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
 }
 
 h6 {
