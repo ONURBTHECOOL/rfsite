@@ -248,6 +248,7 @@ a:-webkit-any-link {
   font-size: 70%;
   border-radius: 6px;
   transition: background-color cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  position: relative;
 }
 
 .link-button:hover {
