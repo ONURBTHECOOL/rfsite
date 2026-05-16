@@ -273,6 +273,7 @@ a:-webkit-any-link {
 }
 
 img {
+  position: relative;
   z-index: 10;
 }
 
