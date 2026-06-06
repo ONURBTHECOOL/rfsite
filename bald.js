@@ -12,7 +12,7 @@ acceptBtn.addEventListener('click', () => {
 });
 
 if (document.cookie.includes("huxm=true")) {
-    console.log("");
+    window.location.replace("https://rotators.biz/horribleux")
 }
 else {
     window.addEventListener('load', () => {
