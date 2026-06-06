@@ -1,3 +1,17 @@
+const dialog = document.getElementById('add1');
+const acceptBtn = document.getElementById('enable');
+const closeBtn = document.getElementById('close');
+
+closeBtn.addEventListener('click', () => {
+    dialog.close();
+});
+
+acceptBtnBtn.addEventListener('click', () => {
+  dialog.close();
+  document.cookie = "huxm=true; path=/";
+});
+
+
 function baldness() {
     welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
     buttons.innerHTML = "<button class='link-button' onclick='hair()'>Click here if you change your mind and are not bald!!!!!👎👎</button>";
