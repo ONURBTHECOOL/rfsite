@@ -7,8 +7,11 @@ closeBtn.addEventListener('click', () => {
 });
 
 acceptBtnBtn.addEventListener('click', () => {
-  dialog.close();
-  document.cookie = "huxm=true; path=/";
+    dialog.close();
+    document.cookie = "huxm=true; path=/";
+});
+window.addEventListener('load', () => {
+    dialog.showModal();
 });
 
 
