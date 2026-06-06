@@ -73,9 +73,9 @@ function checkBaldnessOnLoad() {
         window.location.replace("https://rotators.biz");
     }
     else if (document.cookie.includes("hux=true"){
-        window.location.replace("https://rotators.biz/horribleux")
+        window.location.replace("https://rotators.biz/horribleux");
     }
     else {
-        console.log("");
+        console.log("hi");
     }
 }
