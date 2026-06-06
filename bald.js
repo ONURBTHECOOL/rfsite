@@ -6,7 +6,7 @@ closeBtn.addEventListener('click', () => {
     dialog.close();
 });
 
-acceptBtnBtn.addEventListener('click', () => {
+acceptBtn.addEventListener('click', () => {
     dialog.close();
     document.cookie = "huxm=true; path=/";
 });
