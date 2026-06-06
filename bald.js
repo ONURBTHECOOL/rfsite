@@ -11,7 +11,7 @@ acceptBtn.addEventListener('click', () => {
     document.cookie = "huxm=true; path=/";
 });
 
-if (document.cookie.includes("hux=true")) {
+if (document.cookie.includes("huxm=true")) {
     console.log("");
 }
 else {
@@ -79,7 +79,7 @@ function checkBaldnessOnLoad() {
     else if (document.cookie.includes("baldness=false")) {
         window.location.replace("https://rotators.biz");
     }
-    else if (document.cookie.includes("hux=true")){
+    else if (document.cookie.includes("huxm=true")) {
         window.location.replace("https://rotators.biz/horribleux");
     }
     else {
