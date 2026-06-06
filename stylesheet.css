@@ -5,9 +5,17 @@ body {
   text-align: start;
 }
 
-dialog{
+dialog {
   background-color: #000000;
+  border-color: #00ff16;
+  border-radius: 6px;
 }
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity here */
+}
+
 
 button {
   border: 0px;
