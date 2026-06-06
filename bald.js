@@ -10,9 +10,16 @@ acceptBtn.addEventListener('click', () => {
     dialog.close();
     document.cookie = "huxm=true; path=/";
 });
-window.addEventListener('load', () => {
-    dialog.showModal();
-});
+
+if (document.cookie.includes("hux=true")) {
+    console.log("");
+}
+else {
+    window.addEventListener('load', () => {
+        dialog.showModal();
+    });
+}
+
 
 
 function baldness() {
