@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(255, 0, 0);
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+}
+
+dialog {
+    background-color: #000000;
+    border-color: #b700ff;
+    border-radius: 6px;
+}
+
+dialog::backdrop {
+    background-color: rgb(255, 0, 0);
+    /* Adjust opacity here */
+}
+
+
+button {
+    border: 0px;
+    margin: 2px;
+}
+
+.six-caps-regular {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 200%;
+    color: #3f523d;
+    text-shadow: 5px 5px 5px #0b6604;
+}
+
+h2 {
+    font-size: 150%;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
+}
+
+img {
+    max-width: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+}
+
+figcaption {
+    color: #ff0000;
+    margin-bottom: 100px;
+    text-align: center !important;
+}
+
+
+figcaption {
+    color: #ffffff;
+    margin-bottom: 50px !important;
+}
+
+.image-border-green {
+    border: 3px solid rgb(255, 20, 20);
+    border-radius: 6px;
+    max-height: 700px;
+    max-width: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    transform: translateX(-0%);
+    animation-name: fall;
+    animation-duration: 2s;
+    animation-timing-function: linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
+    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px !important;
+}
+
+.image-border-green-less-width {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    max-height: 100%;
+    max-width: 33%;
+    width: 33%;
+    display: block;
+    margin: auto;
+    transform: translateX(-0%);
+    animation-name: fall;
+    animation-duration: 2s;
+    animation-timing-function: linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
+    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px !important;
+}
+
+
+@keyframes fall {
+    0% {
+        transform: translate(-50%, -100vh);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, calc(50vh - %));
+        /* End at the bottom of the viewport */
+        opacity: 1;
+    }
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 3px;
+}
+
+i {
+    font-style: italic;
+    color: rgb(117, 69, 69);
+    font-size: 90%;
+}
+
+@media screen and (max-width: 756px) {
+    .image-border-green {
+        box-shadow: 5px 5px 5px #0b6604;
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .newsnav {
+        display: block !important;
+        color: #00e44450 !important;
+    }
+
+    .image-border-green-less-width {
+        border: 3px solid green;
+        box-shadow: 5px 5px 5px #0b6604;
+        border-radius: 6px;
+        max-height: 100%;
+        max-width: 90%;
+        width: 90%;
+        display: block;
+        margin: auto;
+        transform: translateX(-0%);
+        animation-name: fall;
+        animation-duration: 2s;
+        animation-timing-function: linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
+        animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.newsnav {
+    display: none;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+}
+
+
+@media screen and (max-width: 756px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+
+    .link-button {
+        font-size: 70%;
+    }
+
+    body {
+        text-align: center;
+    }
+}
+
+ul.topnav li a:hover {
+    background-color: #77afa1;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-shadow: none;
+    text-decoration: none;
+    -moz-text-decoration-style: none;
+    text-decoration-style: none;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #0b6604;
+    color: rgb(0, 0, 0) !important;
+    -moz-text-decoration-style: none;
+    text-decoration-style: none;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 70%;
+    border-radius: 6px;
+    transition: background-color cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    position: relative;
+}
+
+.link-button:hover {
+    background-color: rgb(0, 150, 187);
+}
+
+.link-button:active {
+    background-color: darkgreen;
+}
+
+.link-button a {
+    color: rgb(102, 65, 65);
+}
+
+.coolink {
+    color: #0b6604;
+    text-shadow: 5px 5px 5px #0b6604;
+    text-decoration: none;
+}
+
+.ellection-description {
+    margin-bottom: 100px;
+}
+
+img {
+    position: relative;
+    z-index: 10;
+}
+
+img:hover {
+    animation-name: fall;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: url('favicon.ico'), auto;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+h6 {
+    font-size: 200%;
+    color: #0b6604;
+    text-shadow: 5px 5px 5px #0b6604;
+}
+
+footer {
+    background-color: seagreen;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: darkgreen;
+    cursor: url('favicon.ico'), auto;
+}
