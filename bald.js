@@ -72,6 +72,9 @@ function checkBaldnessOnLoad() {
     else if (document.cookie.includes("baldness=false")) {
         window.location.replace("https://rotators.biz");
     }
+    else if (document.cookie.includes("hux=true"){
+        window.location.replace("https://rotators.biz/horribleux")
+    }
     else {
         console.log("");
     }
