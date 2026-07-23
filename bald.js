@@ -20,7 +20,14 @@ else {
     });
 }
 
-
+function balert(content, name) {
+    dialogs.innerHTML = `<dialog id="${name}" closedby="any"><h1><em>ALERT:</em></h1><p>${content}</p><button id="ok" class="link-button">OK</button></dialog>`;
+    const dialog = document.getElementById(name);
+    dialog.showModal();
+    ok.addEventListener('click', () => {
+        dialog.close();
+    });
+}
 
 function baldness() {
     welcome.innerHTML = "<h6>Hello Bald Person And Welcome To The Rotating Fish Official Site!!</h6>";
