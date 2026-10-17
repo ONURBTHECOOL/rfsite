@@ -5,7 +5,7 @@ function startQuiz() {
     quizContainer.innerHTML = `<h2>Question 1:</h2><p>How would you describe a moose?</p><button class='link-button' onclick="q1=1; qTwo()">Amazing/cool</button><button class='link-button' onclick="q1=0; qTwo()">Other/bad</button>`;
 }
 function qTwo() {
-    quizContainer.innerHTML = `<h2>Question 2:</h2><p>How would you describe a moose?</p><button class='link-button' onclick="q2=1; qThree()">Amazing/cool</button><button class='link-button' onclick="q2=0; qThree()">Other/bad</button>`;
+    quizContainer.innerHTML = `<h2>Question 2:</h2><p>How would you describe a Belly Button?</p><button class='link-button' onclick="q2=1; qThree()">Amazing/cool</button><button class='link-button' onclick="q2=0; qThree()">Amazing/cool</button>`;
 }
 function qThree() {
     quizContainer.innerHTML = `<h2>Question 3:</h2><p>How would you describe a moose?</p><button class='link-button' onclick="q3=1; qFour()">Amazing/cool</button><button class='link-button' onclick="q3=0; qFour()">Other/bad</button>`;
@@ -18,6 +18,6 @@ function qFive() {
 }
 function result() {
     let r = q1 + q2 + q3 + q4 + q5;
-    document.cookie(`result=${r};`);
+    document.cookie("quizResult=" + r + "; path=/");
     quizContainer.innerHTML = `<h2>Result:</h2><p>${r} out of 5 questions correct</p><button class='link-button' onclick="startQuiz()">Try again</button>`;
 }
