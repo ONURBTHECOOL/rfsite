@@ -18,6 +18,6 @@ function qFive() {
 }
 function result() {
     let r = q1 + q2 + q3 + q4 + q5;
-    document.cookie("quizResult=" + r + "; path=/");
+    document.cookie("quizResult=' + r + '; path=/");
     quizContainer.innerHTML = `<h2>Result:</h2><p>${r} out of 5 questions correct</p><button class='link-button' onclick="startQuiz()">Try again</button>`;
 }
