@@ -16,5 +16,5 @@ p, h1, h2 {
     transition-duration: 0s !important;
     transition-delay: 0s !important;
     scroll-behavior: auto !important;
-    cursor: default !important;
+    cursor: pointer !important;
 }
