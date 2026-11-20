@@ -1,0 +1,24 @@
+img, picture, picture img, .image, [role="img"] {
+  width: 50% !important;
+  max-width: 50% !important;
+  height: auto !important;
+  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left !important;
+  align-self: flex-start !important;
+  justify-self: start !important;
+  float: left !important;
+}
+
+*, *::before, *::after {
+  animation: none !important;
+  animation-name: none !important;
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: 1 !important;
+  transition: none !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  scroll-behavior: auto !important;
+}
