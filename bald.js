@@ -1,24 +1,16 @@
-const dialog = document.getElementById('add1');
-const acceptBtn = document.getElementById('enable');
-const closeBtn = document.getElementById('close');
-
-closeBtn.addEventListener('click', () => {
-    dialog.close();
-});
-
-acceptBtn.addEventListener('click', () => {
-    dialog.close();
-    document.cookie = "huxm=true; path=/";
-});
-
-if (document.cookie.includes("huxm=true")) {
-    window.location.replace("https://rotators.biz/horribleux")
+function hasCookie(name) {
+    return document.cookie.split(';').some(cookie => cookie.trim().startsWith(`${name}=`));
 }
-else {
-    window.addEventListener('load', () => {
+
+window.addEventListener('load', () => {
+    const dialog = document.getElementById('add1');
+    const cookieName = 'rfsite_add1_shown';
+
+    if (dialog && !hasCookie(cookieName)) {
         dialog.showModal();
-    });
-}
+        document.cookie = `${cookieName}=true; max-age=86400; path=/; SameSite=Lax`;
+    }
+});
 
 function balert(content, name) {
     dialogs.innerHTML = `<dialog id="${name}" closedby="any"><h1><em>ALERT:</em></h1><p>${content}</p><button id="ok" class="link-button">OK</button></dialog>`;
