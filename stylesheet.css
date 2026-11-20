@@ -299,7 +299,6 @@ img:hover {
   animation-name: fall;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  cursor: url('favicon.ico'), auto;
   animation: bounce 2s infinite ease-in-out;
 }
 
@@ -324,5 +323,4 @@ footer {
   border-radius: 6px;
   border-style: solid;
   border-color: darkgreen;
-  cursor: url('favicon.ico'), auto;
 }
