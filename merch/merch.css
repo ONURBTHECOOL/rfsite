@@ -1,14 +1,11 @@
 img, picture, picture img, .image, [role="img"] {
   width: 50% !important;
   max-width: 50% !important;
-  height: auto !important;
-  margin: 0 !important;
+  height: auto;
+  margin: auto ;
   margin-left: 0 !important;
   margin-right: auto !important;
   text-align: left !important;
-  align-self: flex-start !important;
-  justify-self: start !important;
-  float: left !important;
 }
 
 *, *::before, *::after {
