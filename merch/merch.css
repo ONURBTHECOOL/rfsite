@@ -2,6 +2,10 @@ img, picture, picture img, .image, [role="img"] {
     width: 50% !important;
 }
 
+p, h1, h2 {
+    text-align: center !important;
+}
+
 *, *::before, *::after {
     animation: none !important;
     animation-name: none !important;
