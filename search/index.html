@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <title>Search- RF Official Site</title>
+    <link rel="stylesheet" href="/stylesheet1.css">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="/search/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="/nav.js"></script>
+    <div id="nav-placeholder"></div>
+    <h1>Search Our Site</h1>
+    <br>
+
+    <main>
+        <form class="site-search" action="/search/" method="get" role="search">
+            <div class="input-group">
+                <input class="form-control" type="search" id="site-search" name="q" placeholder="Search pages"
+                    aria-label="Search our site" autocomplete="off">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </span>
+            </div>
+        </form>
+
+        <section class="search-options" aria-label="Search results">
+            <a class="search-result" href="/" data-search="home main rotating fish">Home</a>
+            <a class="search-result" href="/aboutus/"
+                data-search="about us team information story history when where why">About Us</a>
+            <a class="search-result" href="/history/"
+                data-search="history rf rotating fish timeline story backstory">History</a>
+            <a class="search-result" href="/news/"
+                data-search="news updates announcements information info people">News</a>
+            <a class="search-result" href="/merch/"
+                data-search="merchandise merch shop store shirt mug blanket money cost products">Merch</a>
+            <a class="search-result" href="/share/" data-search="share social links friends contact email">Share</a>
+            <a class="search-result" href="/creatures/"
+                data-search="creatures moose parasite eyeder balder nose man earwaxman section monsters things animals">Creatures</a>
+            <a class="search-result" href="/creatures/moose.html" data-search="moose parasites creature">Moose with
+                Parasites</a>
+            <a class="search-result" href="/creatures/parasite.html" data-search="parasite creature">Parasite</a>
+            <a class="search-result" href="/creatures/eyeder.html" data-search="eyeder creature">Eyeder</a>
+            <a class="search-result" href="/creatures/balder.html" data-search="balder bald creature">Balder</a>
+            <a class="search-result" href="/creatures/noseman.html" data-search="nose man noseman creature">Nose Man</a>
+            <a class="search-result" href="/creatures/earwaxman.html"
+                data-search="earwax man earwaxman creature wax ear">Earwaxman</a>
+            <a class="search-result" href="/creatures/section.html" data-search="mr section creature mr.section">Mr.
+                Section</a>
+            <a class="search-result" href="/banned/" data-search="banned removed creatures depricated bad">Banned
+                Creatures</a>
+            <a class="search-result" href="/creatures/elections/"
+                data-search="elections voting votes creatures 2026 2027">Elections</a>
+            <a class="search-result" href="/FishQuiz/" data-search="fishquiz quiz test fish">Fish Quiz</a>
+        </section>
+        <p class="no-results" hidden>No matching pages found. Try Again</p>
+    </main>
+
+    <script src="/search/search.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/footer.js"></script>
+</body>
+
+</html>
