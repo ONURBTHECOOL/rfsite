@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <a href="https://github.com/ONURBTHECOOL/rfsite" title="GitHub">
         <p class="link-button">View Source on GitHub</p>
       </a>
+      <a href="mailto:donate@rotators.biz">
+        <p class="link-button">Make a Review or Send Money</p>
+      </a>
     </footer>
   `;
     document.body.insertAdjacentHTML('beforeend', footerHTML);
