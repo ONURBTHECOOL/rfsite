@@ -1,0 +1,36 @@
+    body>section {
+        position: relative;
+        margin-left: 1rem;
+        padding: 0 0 1.5rem 1.5rem;
+        border-left: 2px solid #ccc;
+        border-right: 2px solid #00658d;
+    }
+
+    body>section::before {
+        content: "";
+        position: absolute;
+        top: 0.35rem;
+        left: -0.5rem;
+        width: 0.85rem;
+        height: 0.85rem;
+        border-radius: 50%;
+        background: #555;
+    }
+
+    body>section h2 {
+        margin-top: 0;
+    }
+
+    body>section hr {
+        display: none;
+    }
+
+    .history-divider {
+        display: block;
+        box-sizing: border-box;
+        width: calc(100% - 1rem);
+        height: 1.5rem;
+        margin-left: 1rem;
+        border-left: 2px solid #ccc;
+        border-right: 2px solid #188d00;
+    }
